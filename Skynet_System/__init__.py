@@ -45,9 +45,9 @@ else:
     STRING_SESSION = Config.STRING_SESSION
     MONGO_DB_URL = Config.MONGO_DB_URL
 
-    Skynet = data["Skynet"]
-    ENFORCERS = data["ENFORCERS"]
-    INSPECTORS = data["INSPECTORS"]
+    Skynet = Config.Skynet
+    ENFORCERS = Config.ENFORCERS
+    INSPECTORS = Config.INSPECTORS
     Skynet_logs = Config.Skynet_logs
     Skynet_approved_logs = Config.Skynet_approved_logs
     GBAN_MSG_LOGS = Config.GBAN_MSG_LOGS
