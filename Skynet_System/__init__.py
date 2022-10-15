@@ -53,9 +53,6 @@ else:
     GBAN_MSG_LOGS = Config.GBAN_MSG_LOGS
     BOT_TOKEN = Config.BOT_TOKEN
 
-INSPECTORS.extend(Skynet)
-ENFORCERS.extend(INSPECTORS)
-
 session = aiohttp.ClientSession()
 
 MONGO_CLIENT = motor_asyncio.AsyncIOMotorClient(MONGO_DB_URL)
